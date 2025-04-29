@@ -7,11 +7,11 @@ while True:
             continue
         
         if edad >= 18:
-         print("Puede votar")
-         break
+            print("Puede votar")
+            break
         else:
-         print("No puede votar")
-         break
+            print("No puede votar")
+            break
     
     except ValueError:
-      print("Debes ingresar un valor numérico")
+        print("Debes ingresar un valor numérico")
