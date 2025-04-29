@@ -1,4 +1,8 @@
-frutas = ["Fresa","Mora","Arroz"]
-quitar = input("Escriba la fruta a eliminar: ")
-frutas.remove[3]
-print(frutas)
+frutas = ["manzana","mango", "fresa","mora"]
+
+print("Lista antes de eliminar: ",frutas)
+
+ultimo = frutas.pop()
+print("Se eliminó:",ultimo)
+
+print("Lista actualizada:",frutas)
