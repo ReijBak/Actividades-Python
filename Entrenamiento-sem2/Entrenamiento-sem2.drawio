@@ -1,0 +1,172 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.15 Chrome/134.0.6998.205 Electron/35.2.1 Safari/537.36" version="26.2.15">
+  <diagram name="Página-1" id="gaxKiLKzg6HtfLqy45h4">
+    <mxGraphModel dx="866" dy="1686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gF8xhL7J3oyy5A4IeTmG-1" target="gF8xhL7J3oyy5A4IeTmG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-1" value="INICIO" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="630" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gF8xhL7J3oyy5A4IeTmG-4" target="gF8xhL7J3oyy5A4IeTmG-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gF8xhL7J3oyy5A4IeTmG-4" target="gF8xhL7J3oyy5A4IeTmG-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-4" value="¿DESEA AGREGAR UNA NOTA?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="740" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gF8xhL7J3oyy5A4IeTmG-6" target="gF8xhL7J3oyy5A4IeTmG-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-6" value="USUARIO AGREGA LA NOTA" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="765" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gF8xhL7J3oyy5A4IeTmG-8" target="gF8xhL7J3oyy5A4IeTmG-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gF8xhL7J3oyy5A4IeTmG-8" target="gF8xhL7J3oyy5A4IeTmG-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-8" value="SI NOTA &amp;gt;=70" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="870" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gF8xhL7J3oyy5A4IeTmG-10" target="gF8xhL7J3oyy5A4IeTmG-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-10" value="APROBÓ" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-12" value="REPROBÓ" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gF8xhL7J3oyy5A4IeTmG-14" target="gF8xhL7J3oyy5A4IeTmG-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-14" value="¿DESEA AGREGAR LA NOTA A LA LISTA?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="980" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gF8xhL7J3oyy5A4IeTmG-12" target="gF8xhL7J3oyy5A4IeTmG-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="1130" as="sourcePoint" />
+            <mxPoint x="670" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-18" value="FIN" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gF8xhL7J3oyy5A4IeTmG-14" target="gF8xhL7J3oyy5A4IeTmG-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="1250" as="sourcePoint" />
+            <mxPoint x="480" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="1200" />
+              <mxPoint x="980" y="1200" />
+              <mxPoint x="980" y="680" />
+              <mxPoint x="480" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-21" value="NOTA AGREGADA" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.842;entryY=0.345;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gF8xhL7J3oyy5A4IeTmG-21" target="gF8xhL7J3oyy5A4IeTmG-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="900" as="sourcePoint" />
+            <mxPoint x="930" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="880" y="720" />
+              <mxPoint x="480" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gF8xhL7J3oyy5A4IeTmG-29" target="gF8xhL7J3oyy5A4IeTmG-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gF8xhL7J3oyy5A4IeTmG-29" target="gF8xhL7J3oyy5A4IeTmG-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-29" value="¿DESEA CALCULAR EL PROMEDIO DE LAS NOSTAS AGREGADAS?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="870" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gF8xhL7J3oyy5A4IeTmG-31" target="gF8xhL7J3oyy5A4IeTmG-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gF8xhL7J3oyy5A4IeTmG-31" target="gF8xhL7J3oyy5A4IeTmG-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-31" value="¿DESEA COMPARAR NOTAS SEGÚN UN PARÁMETRO?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1000" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gF8xhL7J3oyy5A4IeTmG-33" target="gF8xhL7J3oyy5A4IeTmG-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-33" value="¿DESEA CONSULTAR CUANTAS VECES SE REPITE UNA NOTA?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1130" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-35" value="EL PROMEDIO DE LAS NOTAS ES: &quot;PROMEDIO&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="895" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gF8xhL7J3oyy5A4IeTmG-35" target="gF8xhL7J3oyy5A4IeTmG-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="760" as="sourcePoint" />
+            <mxPoint x="230" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="795" />
+              <mxPoint x="270" y="795" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gF8xhL7J3oyy5A4IeTmG-38" target="gF8xhL7J3oyy5A4IeTmG-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-38" value="USUARIO INGRESA UN PARÁMETRO (NOTA)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1025" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-40" value="&quot;VALOR&quot; NOTAS SON MAYORES A &quot;PARÁMETRO&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1155" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gF8xhL7J3oyy5A4IeTmG-40" target="gF8xhL7J3oyy5A4IeTmG-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="1350" as="sourcePoint" />
+            <mxPoint x="240" y="1300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="1280" />
+              <mxPoint x="40" y="1280" />
+              <mxPoint x="40" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gF8xhL7J3oyy5A4IeTmG-43" target="gF8xhL7J3oyy5A4IeTmG-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-43" value="¿QUE NOTA DESEA CONSULTAR?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1155" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-45" value="&quot;NOTA&quot; SE REPITE &quot;CANTIDAD&quot; VECES" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.647;entryY=0.139;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gF8xhL7J3oyy5A4IeTmG-45" target="gF8xhL7J3oyy5A4IeTmG-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="1060" as="sourcePoint" />
+            <mxPoint x="480" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1040" y="1280" />
+              <mxPoint x="1040" y="640" />
+              <mxPoint x="480" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gF8xhL7J3oyy5A4IeTmG-49" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gF8xhL7J3oyy5A4IeTmG-33" target="gF8xhL7J3oyy5A4IeTmG-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="1150" as="sourcePoint" />
+            <mxPoint x="460" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

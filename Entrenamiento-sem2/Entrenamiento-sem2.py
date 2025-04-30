@@ -1,0 +1,57 @@
+#
+#   Determinar el estado de aprobación:
+#       -Solicitar al usuario ingresar una calificación numérica (de 0 a 100)
+#       -Evaluar si el estudiante ha aprobado o reprobado basándose en la calificación ingresada
+#   Calcular el promedio:
+#       -Permitir al usuario ingresar una lista de calificaciones (separadas por comas)
+#       -Calcular y mostrar el promedio de las calificaciones en la lista
+#   Contar calificaciones mayores:
+#       -Preguntar al usuario por un valor específico
+#       -Contar cuántas calificaciones en la lista son mayores que este valor
+#   Verificar y contar calificaciones específicas:
+#       -Permitir al usuario ingresar una lista de calificaciones (separadas por comas)
+#       -Calcular y mostrar el promedio de las calificaciones en la lista
+#
+# ======================================//======================================
+
+notas = []
+
+def agregar_nota():
+
+    nota = float(input("Digite la nota a agregar: (0-100)"))
+    if nota>=70:
+        print("Aprobó")
+    else:
+        print("reprobó")
+
+print(" ======================================//====================================== \n")
+print("¡Bienvenido!\n")
+print("\nSeleccione una de las siguientes opciones:\n")
+print("1. Agregar una nota.\n2. Calcular promedio de notas.")
+print("3. Comparar notas según una nota de referencia.\n4. Consultar la existencia de una nota.")
+print("5. Salir\n")
+
+opcion = int(input("Por favor digite la opción que desea elegir aquí: ---> "))
+
+while True:
+    if opcion==1:
+        print("Has elegido: Agregar una nota.")
+        agregar_nota()
+    elif opcion==2:
+        print("Has elegido: Calcular promedio de notas.")
+        calcular_promedio()
+    elif opcion==3:
+        print("Has elegido: Comparar notas según una nota de referencia.")
+        comparar_notas()
+    elif opcion==4:
+        print("Has elegido: Consultar la existencia de una nota")
+        consultar_nota()
+    elif opcion==5:
+        print("Saliendo del programa...")
+        break
+    else:
+        print("Opción no válida, intente nuevamente")
+
+
+
+
