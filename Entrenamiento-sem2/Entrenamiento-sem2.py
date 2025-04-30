@@ -18,11 +18,23 @@ notas = []
 
 def agregar_nota():
 
-    nota = float(input("Digite la nota a agregar: (0-100)"))
-    if nota>=70:
-        print("Aprobó")
-    else:
-        print("reprobó")
+    while True:
+        
+        try:
+            nota = float(input("Digite la nota a agregar (0-100): "))
+            if nota<0 or nota>100:
+                print("Valor fuera de rango, intente de nuevo")  
+                continue
+
+            if nota>=70:
+                print("Aprobó")
+                break
+            else:
+                print("reprobó")
+                break
+        except ValueError:
+            print("Valor inválido, intente de nuevo")
+
 
 print(" ======================================//====================================== \n")
 print("¡Bienvenido!\n")
@@ -51,7 +63,3 @@ while True:
         break
     else:
         print("Opción no válida, intente nuevamente")
-
-
-
-
