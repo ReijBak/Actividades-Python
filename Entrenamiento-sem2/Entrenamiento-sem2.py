@@ -37,19 +37,18 @@ def agregar_nota():
     
     while True:
         
-        try:
-            guardar_nota = input("¿Desea guardar la nota en la lista?(Si/No)").lower
+        guardar_nota = input("¿Desea guardar la nota en la lista?(Si/No)\n").lower()
 
-            if guardar_nota=="si" or guardar_nota=="sí":
-                notas.append(nota)
-                print("La nota ha sido agregada")
-                break
-            elif guardar_nota=="no":
-                print("La nota no ha sido agregada")
-                break
-        except guardar_nota != "si" and guardar_nota != "sí" and guardar_nota != "no":
-            print("Debe responder Si o No")
-            continue
+        if guardar_nota=="si" or guardar_nota=="sí":
+            notas.append(nota)
+            print("La nota ha sido agregada")
+            break
+        elif guardar_nota=="no":
+            print("La nota no ha sido agregada")
+            break
+        else:
+            print("Opción no válida, intente de nuevo")
+        
         
     
 
