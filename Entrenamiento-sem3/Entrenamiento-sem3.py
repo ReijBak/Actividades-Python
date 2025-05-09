@@ -19,83 +19,89 @@
 # 
 # ============================================================================= // ============================================================================= 
 
-inventario = {}
+inventory = {}
 
-def añadir_producto():
-    nombre = input("Nombre del producto: ").strip().lower()
-    if nombre in inventario:
-        print("⚠️ El producto ya existe en el inventario.")
+DANGER = "\033[91m"
+WARNING = "\033[93m"
+SUCCESS = "\033[92m"
+RESET = "\033[0m"
+
+def add_product():
+    name = input("Nombre del producto: ").strip().lower()
+    if name in inventory:
+        print(WARNING + "⚠️ El producto ya existe en el inventario." + RESET)
         return
     try:
-        precio = float(input("Precio del producto: "))
-        cantidad = int(input("Cantidad disponible: "))
-        inventario[nombre] = {"precio": precio, "cantidad": cantidad}
-        print("✅ Producto añadido correctamente.")
+        price = float(input("Precio del producto: "))
+        quantity = int(input("Cantidad disponible: "))
+        inventory[name] = {"price": price, "quantity": quantity}
+        print(SUCCESS + "✅ Producto añadido correctamente." + RESET)
     except ValueError:
-        print("❌ Error: Ingresa valores numéricos válidos.")
+        print(DANGER + "❌ Error: Ingresa valores numéricos válidos." + RESET)
 
-def consultar_producto():
-    nombre = input("Nombre del producto a consultar: ").strip().lower()
-    producto = inventario.get(nombre)
-    if producto:
-        print(f"📦 Producto: {nombre.title()}")
-        print(f"   Precio: ${producto['precio']:.2f}")
-        print(f"   Cantidad: {producto['cantidad']}")
+def check_product():
+    name = input("Nombre del producto a consultar: ").strip().lower()
+    product = inventory.get(name)
+    if product:
+        print(f"📦 Producto: {name.title()}")
+        print(f"   Precio: ${product['price']:.2f}")
+        print(f"   Cantidad: {product['quantity']}")
     else:
-        print("❌ Producto no encontrado en el inventario.")
+        print(DANGER + "❌ Producto no encontrado en el inventario." + RESET)
 
-def actualizar_precio():
-    nombre = input("Nombre del producto a actualizar: ").strip().lower()
-    if nombre in inventario:
+def update_price():
+    name = input("Nombre del producto a actualizar: ").strip().lower()
+    if name in inventory:
         try:
-            nuevo_precio = float(input("Nuevo precio: "))
-            inventario[nombre]['precio'] = nuevo_precio
-            print("✅ Precio actualizado correctamente.")
+            new_price = float(input("Nuevo precio: "))
+            inventory[name]['price'] = new_price
+            print(SUCCESS + "✅ Precio actualizado correctamente." + RESET)
         except ValueError:
-            print("❌ Error: El precio debe ser un número válido.")
+            print(DANGER + "❌ Error: El precio debe ser un número válido." + RESET)
     else:
-        print("❌ Producto no encontrado.")
+        print(DANGER + "❌ Producto no encontrado." + SUCCESS)
 
-def eliminar_producto():
-    nombre = input("Nombre del producto a eliminar: ").strip().lower()
-    if nombre in inventario:
-        del inventario[nombre]
-        print("🗑️ Producto eliminado correctamente.")
+def delete_product():
+    name = input("Nombre del producto a eliminar: ").strip().lower()
+    if name in inventory:
+        del inventory[name]
+        print(DANGER + "🗑️ Producto eliminado correctamente." + RESET)
     else:
-        print("❌ Producto no encontrado.")
+        print(DANGER + "❌ Producto no encontrado." + RESET)
 
-def calcular_valor_total():
-    total = sum(map(lambda x: x['precio'] * x['cantidad'], inventario.values()))
-    print(f"💰 Valor total del inventario: ${total:.2f}")
+def calculate_total_value():
+    total = sum(map(lambda x: x['price'] * x['quantity'], inventory.values()))
+    print(WARNING + f"💰 Valor total del inventario: ${total:.2f}" + RESET)
 
 def menu():
-    opciones = {
-        "1": añadir_producto,
-        "2": consultar_producto,
-        "3": actualizar_precio,
-        "4": eliminar_producto,
-        "5": calcular_valor_total,
-        "6": salir
+    options = {
+        "1": add_product,
+        "2": check_product,
+        "3": update_price,
+        "4": delete_product,
+        "5": calculate_total_value,
+        "6": exit
     }
     while True:
-        print("\n📋 Menú de Inventario:")
-        print("1. Añadir producto")
-        print("2. Consultar producto")
-        print("3. Actualizar precio")
-        print("4. Eliminar producto")
-        print("5. Calcular valor total del inventario")
-        print("6. Salir")
-        eleccion = input("Seleccione una opción (1-6): ").strip()
-        accion = opciones.get(eleccion)
-        if accion:
-            accion()
+        print(" ================================== // ================================== ")
+        print("\nBienvenido")
+        print("\n📋 Menú de Inventario:\n")
+        print("1. Añadir producto.")
+        print("2. Consultar producto.")
+        print("3. Actualizar precio.")
+        print("4. Eliminar producto.")
+        print("5. Calcular valor total del inventario.")
+        print("6. Salir.")
+        choice = input("\nSeleccione una opción (1-6): ").strip()
+        action = options.get(choice)
+        if action:
+            action()
         else:
-            print("❌ Opción no válida.")
+            print(DANGER + "❌ Opción no válida." + RESET)
 
-def salir():
+def exit():
     print("👋 Saliendo del programa... ¡Hasta luego!")
     exit()
 
 if __name__ == "__main__":
     menu()
-
