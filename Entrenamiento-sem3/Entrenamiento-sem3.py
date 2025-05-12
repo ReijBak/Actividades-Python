@@ -19,14 +19,14 @@
 # 
 # ============================================================================= // ============================================================================= 
 
-inventory = {} # The dictionary to be used to store the products is declared.
+inventory = {} # The dictionary to be used to store the items is declared.
 
 DANGER = "\033[91m"
 WARNING = "\033[93m"
 SUCCESS = "\033[92m"
 RESET = "\033[0m"
 
-def add_product():
+def add_product(): # This function is used for add a item, if it haven't was added yet.
     name = input("Nombre del producto: ").strip().lower()
     if name in inventory:
         print(WARNING + "⚠️ El producto ya existe en el inventario." + RESET)
@@ -39,7 +39,7 @@ def add_product():
     except ValueError:
         print(DANGER + "❌ Error: Ingresa valores numéricos válidos." + RESET)
 
-def check_product():
+def check_product(): # This one displays the data for a specific item, if it exists.
     name = input("Nombre del producto a consultar: ").strip().lower()
     product = inventory.get(name)
     if product:
@@ -49,7 +49,7 @@ def check_product():
     else:
         print(DANGER + "❌ Producto no encontrado en el inventario." + RESET)
 
-def update_price():
+def update_price(): # This one is used to update the price of one item.
     name = input("Nombre del producto a actualizar: ").strip().lower()
     if name in inventory:
         try:
@@ -61,26 +61,26 @@ def update_price():
     else:
         print(DANGER + "❌ Producto no encontrado." + SUCCESS)
 
-def delete_product():
+def delete_product(): # This one is used to delete one item.
     name = input("Nombre del producto a eliminar: ").strip().lower()
     if name in inventory:
         del inventory[name]
         print(DANGER + "🗑️ Producto eliminado correctamente." + RESET)
     else:
-        print(DANGER + "❌ Producto no encontrado." + RESET)
+        print(WARNING + "❌ Producto no encontrado." + RESET)
 
-def calculate_total_value():
+def calculate_total_value(): # And this one calculates the items total value.
     total = sum(map(lambda x: x['price'] * x['quantity'], inventory.values()))
     print(WARNING + f"💰 Valor total del inventario: ${total:.2f}" + RESET)
 
-def menu():
+def menu(): # This week I learned how to do a menu using diccionary. :D
     options = {
         "1": add_product,
         "2": check_product,
         "3": update_price,
         "4": delete_product,
         "5": calculate_total_value,
-        "6": exit
+        "6": finish
     }
     while True:
         print(" ================================== // ================================== ")
@@ -99,7 +99,7 @@ def menu():
         else:
             print(DANGER + "❌ Opción no válida." + RESET)
 
-def exit():
+def finish():
     print("👋 Saliendo del programa... ¡Hasta luego!")
     exit()
 
