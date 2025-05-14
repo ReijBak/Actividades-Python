@@ -61,7 +61,7 @@ def search_book():
     book = books.get(id)
 
     if book:
-        print(f"📘 Título del libro: {book['title'].title()}")
+        print(f"\n📘 Título del libro: {book['title'].title()}")
         print(f"   Autor del libro: {book['author'].title()}")
         print(f"   Año de publicación: {book['year']}")
     else:
@@ -81,10 +81,11 @@ def update_book():
                 continue
             books[id]['year'] = new_year
             cont = False
+        print(SUCCESS + "✅ Libro actualizado correctamente." + RESET)
             
 def delete_book():
     
-    id = input("Nombre del libro a eliminar: ").strip().lower()
+    id = input("ID del libro a eliminar: ").strip().lower()
     if id in books:
         del books[id]
         print(WARNING + "🗑️ Libro eliminado correctamente." + RESET)
