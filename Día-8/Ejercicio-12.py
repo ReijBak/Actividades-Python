@@ -1,0 +1,2 @@
+from Funciones import eliminar_duplicados
+eliminar_duplicados()

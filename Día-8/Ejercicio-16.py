@@ -1,0 +1,2 @@
+from Funciones import contrasena_segura
+contrasena_segura()

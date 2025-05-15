@@ -1,0 +1,2 @@
+from Funciones import cantidad_apariciones
+cantidad_apariciones()
